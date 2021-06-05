@@ -47,5 +47,8 @@ C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\es\S
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\es\System.Web.Webpages.Razor.resources.dll
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\es\System.Web.Helpers.resources.dll
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\es\System.Web.Mvc.resources.dll
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.csprojAssemblyReference.cache
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.csproj.CoreCompileInputs.cache
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.csproj.CopyComplete
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.dll
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.pdb
