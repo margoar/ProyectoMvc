@@ -1,0 +1,4 @@
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
