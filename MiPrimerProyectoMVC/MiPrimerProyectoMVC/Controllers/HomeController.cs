@@ -12,8 +12,8 @@ namespace MiPrimerProyectoMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            ViewBag.Alumnos = Alumno.Listar();
-            return View();
+          //  ViewBag.Alumnos = Alumno.Listar();
+            return View(Alumno.Listar());
         }
 
 
