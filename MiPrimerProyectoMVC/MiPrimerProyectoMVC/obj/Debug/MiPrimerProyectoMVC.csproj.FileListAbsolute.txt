@@ -49,3 +49,4 @@ C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\es\S
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\es\System.Web.Mvc.resources.dll
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.dll
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.pdb
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.csprojResolveAssemblyReference.cache
