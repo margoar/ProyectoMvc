@@ -1,2 +1,12 @@
-﻿<h2 class="page-header">Index
-    </h2>
+﻿@{ 
+    ViewBag.Title = "Inicio";
+    List<Model.Alumno> alumnos = ViewBag.Alumnos;
+}
+<h2 class="page-header">Index  </h2>
+<ul>
+    @foreach (var alum in alumnos)
+    {
+        <li> @alum.Nombre </li>
+
+    }
+</ul>

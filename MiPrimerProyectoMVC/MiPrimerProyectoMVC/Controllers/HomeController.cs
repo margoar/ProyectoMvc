@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,12 +12,10 @@ namespace MiPrimerProyectoMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.Alumnos = Alumno.Listar();
             return View();
         }
 
-        public ActionResult Alumno()
-        {
-            return View();
-        }
+
     }
 }

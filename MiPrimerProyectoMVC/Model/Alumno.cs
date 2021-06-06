@@ -8,11 +8,30 @@ namespace Model
 {
     public class Alumno
     {
-        private int id { get; set; }
-        private string Nombre { get; set; }
+        public int id { get; set; }
+        public string Nombre { get; set; }
+
         public static List<Alumno> Listar()
         {
-            return null;
+            var alumnos = new List<Alumno>();
+            for(int i=0; i<10; i++)
+            {
+                var alumno = new Alumno() {
+                    id = i,
+                    Nombre = "Alumno" + i
+                };
+                alumnos.Add(alumno);
+            }
+
+            return alumnos;
+        }
+        public static Alumno Obtener()
+        {
+            return new Alumno
+            {
+                id = 1,
+                Nombre = "Alumno1"
+            };
         }
     }
 }

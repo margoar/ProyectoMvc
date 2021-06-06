@@ -50,3 +50,5 @@ C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\es\S
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.dll
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.pdb
 C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\obj\Debug\MiPrimerProyectoMVC.csprojResolveAssemblyReference.cache
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\Model.dll
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\MiPrimerProyectoMVC\bin\Model.pdb
