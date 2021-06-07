@@ -1,9 +1,20 @@
-﻿
+﻿@model Model.Alumno
 @{
     ViewBag.Title = "Ver";
 }
 
-<h2>Ver</h2>
+<h2>Alumno</h2>
 
-@ViewBag.id
+@using (Html.BeginForm("Guardar", "Home", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.id)
 
+    @Html.LabelFor(x => x.Nombre)
+    @Html.TextBoxFor(x => x.Nombre , new { @class= "form-control"})
+
+    <input name="pais" value="paris">
+    <input name="pais" value="londres">
+    <input name="pais" value="chile">
+
+    <button type="submit" class="btn btn-success">Enviar</button>
+}

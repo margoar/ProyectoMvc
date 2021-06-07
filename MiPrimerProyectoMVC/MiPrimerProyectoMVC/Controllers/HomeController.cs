@@ -12,13 +12,16 @@ namespace MiPrimerProyectoMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
-          //  ViewBag.Alumnos = Alumno.Listar();
-            return View(Alumno.Listar());
-        }
-        public ActionResult Ver(int id =0) {
-            ViewBag.id = id;
             return View();
         }
+        public ActionResult Ver() {
+            
+            return View(Alumno.Obtener());
+        }
 
+        public ActionResult Guardar(Alumno alumno, string [] pais)
+        {
+            return Redirect("~/home/index");
+        }
     }
 }
