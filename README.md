@@ -1,5 +1,6 @@
 # ProyectoMvc
-Proyecto simple en ASP.NET MVC
+Proyecto de base simple que realiza un CRUD de la entidad alumno.
+Desarrollado ASP.NET MVC, con bd Sql Server
 
 ## Instalaciones necesarias
  * Visual Studio 2015	
