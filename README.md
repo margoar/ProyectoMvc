@@ -1,7 +1,7 @@
 # ProyectoMvc
 Proyecto simple en ASP.NET MVC
 
-## Instalaciones necesarias:
+## Instalaciones necesarias
  * Visual Studio 2015	
  * Sql Server 2014
  
