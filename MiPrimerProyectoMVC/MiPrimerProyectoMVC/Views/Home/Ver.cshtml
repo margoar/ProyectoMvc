@@ -1,20 +1,21 @@
 ﻿@model Model.Alumno
 @{
-    ViewBag.Title = "Ver";
+    ViewBag.Title = Model.Nombre + " " + Model.Apellido;
 }
 
-<h2>Alumno</h2>
+<ol class="breadcrumb">
+    <li><a href="~/">Alumnos</a></li>
+    <li class="active">@(Model.Nombre + " "+ Model.Apellido)</li>
+</ol>
 
-@using (Html.BeginForm("Guardar", "Home", FormMethod.Post))
-{
-    @Html.HiddenFor(x => x.id)
-
-    @Html.LabelFor(x => x.Nombre)
-    @Html.TextBoxFor(x => x.Nombre , new { @class= "form-control"})
-
-    <input name="pais" value="paris">
-    <input name="pais" value="londres">
-    <input name="pais" value="chile">
-
-    <button type="submit" class="btn btn-success">Enviar</button>
-}
+<div class="panel panel-default">
+    <div class="panel-heading">Informacion personal</div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>Nombre</dt>
+            <dd>@Model.Nombre</dd>
+            <dt>Apellido</dt>
+            <dd>@Model.Apellido</dd>
+        </dl>
+    </div>
+</div>

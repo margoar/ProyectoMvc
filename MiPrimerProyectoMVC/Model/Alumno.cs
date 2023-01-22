@@ -5,6 +5,7 @@ namespace Model
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Linq;
 
     [Table("Alumno")]
     public partial class Alumno
@@ -36,5 +37,44 @@ namespace Model
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<AlumnoCurso> AlumnoCurso { get; set; }
+    
+        public static List<Alumno> Listar()
+        {
+            var alumnos = new List<Alumno>();
+            try
+            {
+                using(var ctx = new bdproyectoContext())
+                {
+                    alumnos = ctx.Alumno.ToList();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return alumnos;
+        }
+          public static Alumno Obtener(int id)
+        {
+            var alumno = new Alumno();
+            try
+            {
+                using(var ctx = new bdproyectoContext())
+                {
+                    alumno = ctx.Alumno.Where(a => a.id == id)
+                        .SingleOrDefault();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return alumno;
+        }
     }
+  
+    
 }
