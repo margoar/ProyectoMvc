@@ -63,7 +63,9 @@ namespace Model
             {
                 using(var ctx = new bdproyectoContext())
                 {
-                    alumno = ctx.Alumno.Where(a => a.id == id)
+                    alumno = ctx.Alumno.Include("AlumnoCurso")
+                        .Include("AlumnoCurso.Curso")
+                        .Where(a => a.id == id)
                         .SingleOrDefault();
                 }
             }
