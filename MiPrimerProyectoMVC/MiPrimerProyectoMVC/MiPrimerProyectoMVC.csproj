@@ -159,6 +159,7 @@
     <Content Include="assets\css\bootstrap-theme.min.css.map" />
     <Content Include="assets\css\bootstrap.css.map" />
     <Content Include="assets\css\bootstrap-theme.css.map" />
+    <Content Include="Views\Home\Crud.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
