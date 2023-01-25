@@ -20,10 +20,7 @@ namespace MiPrimerProyectoMVC.Controllers
             return View(Alumno.Obtener(id));
         }
 
-        public ActionResult Guardar(Alumno alumno, string [] pais)
-        {
-            return Redirect("~/home/index");
-        }
+
         public ActionResult Crud(int id = 0)
         {
             return View(
