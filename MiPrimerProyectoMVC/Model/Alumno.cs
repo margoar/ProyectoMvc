@@ -39,7 +39,7 @@ namespace Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<AlumnoCurso> AlumnoCurso { get; set; }
     
-        public static List<Alumno> Listar()
+        public  List<Alumno> Listar()
         {
             var alumnos = new List<Alumno>();
             try
@@ -47,6 +47,7 @@ namespace Model
                 using(var ctx = new bdproyectoContext())
                 {
                     alumnos = ctx.Alumno.ToList();
+                
                 }
 
             }
@@ -57,7 +58,7 @@ namespace Model
             }
             return alumnos;
         }
-          public static Alumno Obtener(int id)
+          public  Alumno Obtener(int id)
         {
             var alumno = new Alumno();
             try

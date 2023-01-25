@@ -7,9 +7,9 @@
     <thead>
         <tr>
             <th>Nombre</th>
-            <th>Sexo</th>
-            <th>Fecha de nacimiento</th>
-            <th style="width:100px;"></th>
+            <th style="width:200px;">Sexo</th>
+            <th style="width:200px;">Fecha de nacimiento</th>
+            <th style="width:200px;"></th>
         </tr>
     </thead>
     <tbody>
@@ -22,6 +22,8 @@
                 <th>@m.FechaNacimiento</th>
                 <th>
                     <a class="btn btn-xs btn-primary" href="~/home/ver/@m.id">Visualizar</a>
+                    <a class="btn btn-xs btn-success" href="~/home/crud/@m.id">Editar</a>
+                    <a onclick="return confirm('Desea eliminar este registro?')" class="btn btn-xs btn-danger" href="~/home/eliminar/@m.id">Eliminar</a>
                 </th>
             </tr>
         }
