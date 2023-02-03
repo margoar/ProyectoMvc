@@ -1,0 +1,27 @@
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+C:\MisAPPS\ProyectoBasicoMvcNet\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+C:\Users\Marcela-G\Documents\PROYECTOS\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\bin\Debug\Model.dll
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\bin\Debug\Model.pdb
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\bin\Debug\EntityFramework.dll
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\bin\Debug\EntityFramework.xml
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\obj\Debug\Model.dll
+C:\Users\Marcela Gonzalez\Documents\ProyectosMis\MVC\Model\obj\Debug\Model.pdb
