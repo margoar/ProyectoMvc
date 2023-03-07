@@ -29,8 +29,17 @@ namespace MiPrimerProyectoMVC.Controllers
         }
         public ActionResult Guardar(Alumno model)
         {
-            model.Guardar();
-            return Redirect("~/home");
+            if (ModelState.IsValid)
+            {
+                model.Guardar();
+                return Redirect("~/home");
+
+            }
+            else
+            {
+                return View("~/view/home/crud.cshtml", model);
+            }
+
         }
         public ActionResult Eliminar(int id)
         {
